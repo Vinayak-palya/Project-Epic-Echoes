@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/utility.css" />
+    <title>EpicEchoes - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="svg/cover.png" type="image/x-icon">
+  </head>
+  <body class="bg-black">
+    <div class="nav">
+      
+      <div class="logo">
+        <div class="hamburgerCont">
+          <img src="/svg/hamburger.svg" alt="" class="invert hamburger">
+        </div>
+        <img src="svg/logo.svg" class="invert" alt="logo" />
+      </div>
+
+      <div class="home">
+        <button class="search-btn">
+          <img src="svg/home.svg" class="invert" alt="" />
+        </button>
+        <div class="searchbar">
+          <img src="svg/search.svg" alt="search" class="search" />
+          <label for="song"></label>
+          <input
+            type="text"
+            id="song"
+            placeholder="What do you want to play?"
+          />
+          <img src="svg/browse.svg" alt="browse" class="browse" />
+        </div>
+      </div>
+      <div class="homealt">
+        <img src="svg/search.svg" alt="search" class="search" />
+      </div>
+
+      <div class="enter">
+        <button class="sign-up">Sign up</button>
+        <button class="log-in">Log in</button>
+      </div>
+    </div>
+
+    <div class="main">
+
+        <div class="left">
+            <div class="first">
+                <button class="library">
+                    <img src="svg/library.svg" alt="library" />
+                    <p>Your Library</p>
+                </button>
+                <button class="plus">
+                    <img src="svg/Plus.svg" alt="add" />
+                </button>
+                <button class="invert cross">
+                  <img src="svg/cross.svg" alt="">
+                </button>
+            </div>
+            
+            <div class="second">
+                <div class="fcontainer">
+                    <div class="statement">
+                        <div class="line1">Create your first playlist</div>
+                        <div class="line2">it's easy we'll help you</div>
+                    </div>
+                    <button class="playlist">Create playlist</button>
+                </div>
+                
+                <div class="scontainer">
+                    <div class="statement">
+                        <div class="line1">Let's find some podcasts to follow</div>
+                        <div class="line2">We'll keep you updated on new episodes</div>
+                    </div>
+                    
+                    <button class="playlist">Browse podcasts</button>
+                </div>
+                <div class="tContainer">
+                  <h4>Your library</h4>
+                  <ul>
+                    
+                  </ul>
+                </div>
+            </div>
+            
+
+
+            <div class="third">
+                <ul>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Safety & Privacy center</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">About Ads</a></li>
+                    <li><a href="">Accessibility</a></li>
+                </ul>
+                <div class="cookies"><a href="cookies">Cookies</a></div>
+                <button>
+                    <img src="svg/english.svg" alt="" />
+                    <div class="english">English</div>
+                </button>
+            </div>
+        </div>
+        
+        <div class="right spotifyPlaylists">
+            <h1>Spotify Playlist</h1>
+
+            <div class="cardContainer">
+                
+            </div>
+
+            <div class="playbar">
+              <div class="seekbar">
+                <div class="circle"></div>
+              </div>
+              <div class="status">
+
+                <div class="songInfo"></div>
+                <div class="songsButton">
+                  <img width="35" id="previous" src="svg/previous.svg" alt="">
+                  <img width="35" id="play" src="svg/pauseAndPlay.svg" id = "play" alt="">
+                  <img width="35" id="next" src="svg/next.svg" alt="">
+                </div>
+                <div class="specs">
+
+                  <div class="songTime"></div>
+                  <div class="volume">
+                    <img width="25" src="svg/volume.svg" alt="">
+                    <div class="range">
+                      <input type="range" name="volume" >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>
